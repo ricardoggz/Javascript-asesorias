@@ -37,3 +37,12 @@ fn(10, 10)
 //función lambda
 const fn2 = (a, b)=> console.log(a + b) //return implicito
 fn2(10, 10)
+
+//funciones anidadas
+function anidada(){
+    function fn(){
+        console.log('Hola')
+    }
+    fn()
+}
+anidada()
